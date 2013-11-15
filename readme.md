@@ -18,12 +18,12 @@ var elem = document.getElementById('huge-ass-table');
 detach(elem);
 
 // Detach + exec fn + reattach, synchronous.
-detach(elem, function() {
+detach(elem, function(err) {
   // this == elem, do stuff here.
 });
 
 // Detach + exec fn + reattach, asynchronous.
-detach(elem, true, function(reattach) {
+detach(elem, true, function(err, reattach) {
   // this == elem, do stuff here, call reattach() when done!
   setTimeout(reattach, 1000);
 });
