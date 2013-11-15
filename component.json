@@ -1,0 +1,17 @@
+{
+  "name": "detach",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "detach element from DOM",
+  "keywords": [
+    "detach",
+    "reattach"
+  ],
+  "main": "src/detach.js",
+  "scripts": [
+    "src/detach.js"
+  ],
+  "dependencies": {
+    "component/type": "*"
+  }
+}
