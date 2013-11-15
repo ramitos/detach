@@ -1,6 +1,6 @@
 # detach
 
-from [cowboy/ba-detach.js](https://gist.github.com/cowboy/938767);
+from [cowboy/ba-detach.js](https://gist.github.com/cowboy/938767)
 
 ## install
 
